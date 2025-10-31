@@ -1,3 +1,5 @@
+import { defineNuxtConfig } from 'nuxt/config'
+
 export default defineNuxtConfig({
   extends: '@nuxt-themes/docus',
   modules: [
@@ -8,8 +10,5 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/**': { prerender: true }
-  },
-  nitro: {
-    preset: 'vercel'
   }
 })

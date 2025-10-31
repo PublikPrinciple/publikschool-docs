@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-> Prefer `pnpm` or `yarn`? Install dependencies with your package manager of choice and replace the `npm run` commands accordingly.
+> Ensure you are running Node.js 18.17 or newer (Node 20+ recommended) so the Nuxt and Docus toolchain matches production. Prefer `pnpm` or `yarn`? Install dependencies with your package manager of choice and replace the `npm run` commands accordingly.
 
 ## Repository structure
 

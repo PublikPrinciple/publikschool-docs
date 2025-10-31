@@ -9,9 +9,15 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
+  "dependencies": {
+    "@nuxt-themes/docus": "^1.15.1",
+    "@nuxt/content": "^2.12.1"
+  },
   "devDependencies": {
-    "@nuxt-themes/docus": "latest",
-    "@nuxt/content": "latest",
-    "nuxt": "latest"
-  }
+    "nuxt": "^3.12.0"
+  },
+  "engines": {
+    "node": "^18.17.0 || >=20.0.0"
+  },
+  "packageManager": "npm@10.5.0"
 }

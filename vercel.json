@@ -1,6 +1,14 @@
 {
   "version": 2,
-  "framework": "nuxtjs",
   "buildCommand": "npm run generate",
-  "outputDirectory": ".output/public"
+  "outputDirectory": ".output/public",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": ".output/public"
+      }
+    }
+  ]
 }
