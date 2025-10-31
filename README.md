@@ -9,7 +9,7 @@ pnpm install
 pnpm dev
 ```
 
-> Docus also supports `npm` and `yarn`. Use whichever package manager your team prefers.
+> Ensure you are running Node.js 18.17 or newer (Node 20+ recommended) so the Nuxt and Docus toolchain matches production. Prefer `npm` or `yarn`? Install dependencies with your package manager of choice and replace the `pnpm` commands accordingly.
 
 ## Repository structure
 
@@ -22,6 +22,23 @@ pnpm dev
 ## Contributing
 
 Please review [CONTRIBUTING.md](CONTRIBUTING.md) for style guides, contribution workflows, and local development tips.
+
+## Deploying to Vercel
+
+1. Connect this repository to a new Vercel project.
+2. When prompted for build settings, keep the defaults or set:
+   - **Framework Preset:** `Nuxt.js`
+   - **Build Command:** `pnpm run generate`
+   - **Output Directory:** `.output/public`
+3. Trigger a deployment. Vercel reads `vercel.json` to ensure the correct build target and will publish the statically generated site.
+4. Enable automatic deployments from your default branch so new commits rebuild the docs automatically.
+
+Locally you can mirror the production build with:
+
+```bash
+pnpm run generate
+pnpm run preview
+```
 
 ## License
 
