@@ -9,6 +9,7 @@ Use the side navigation or the quick links below to jump directly into the secti
 
 ::list{type="icons" cols="2"}
 - :material-symbols-light:language: [Overview](./overview/intro)
+- :material-symbols-light:account-tree: [Canonical Naming](./overview/canonical_naming)
 - :material-symbols-light:calendar-clock: [Formats](./formats/one_day_sprint)
 - :material-symbols-light:groups: [Roles](./roles/lead_facilitator)
 - :material-symbols-light:event: [Agendas](./agendas/48h_run_of_show)
